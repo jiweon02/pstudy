@@ -14,17 +14,19 @@
 바이너리 유형 : bytes, bytearray
 없음 유형 : NoneType
 '''
-# str
+# str / 문자
 x = "Hello World"
 print(type(x))
-# int
+
+# int / 정수
 x = 20
 print(type(x))
 
-# float
+# float / 소수도 ㅇㅋ
 x = 20.5
 print(type(x))
-# complex
+
+# complex / 문자랑 숫자도 ㅇㅋ
 x = 1j
 print(type(x))
 
@@ -64,13 +66,5 @@ print(result)
 
 
 
-
-
-
-
-
-
-
-
-
-
+x = range(6)
+print(x)
