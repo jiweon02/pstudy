@@ -1,0 +1,5 @@
+file = open('Hello.txt','at', encoding='UTF-8')
+file.write('hello\n')
+file.write('Nice to meet you\n')
+print('hello.txt 파일에 새로운 내용이 추가되었습니다')
+file.close()
